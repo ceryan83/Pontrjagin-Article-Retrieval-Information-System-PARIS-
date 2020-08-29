@@ -9,7 +9,7 @@ import psycopg2
 def getConnection():        
     try:
         connection = psycopg2.connect(user = 'postgres',
-                                      password = '4rt1n14n',
+                                      password = '',
                                       host = '127.0.0.1',
                                       port = '5432',
                                       dbname = 'Pontrjagin',
